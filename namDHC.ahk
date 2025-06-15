@@ -118,12 +118,15 @@ v1.13
 v1.14
 - Included 0.268 in the release list
 - Drag n drop implemented (taken from TFWol PR https://github.com/umageddon/namDHC/pull/16)
+
+v1.14.1
+- Input folder as output folder implemented.
 )
 
 
 ; Default global values 
 ; ---------------------
-CURRENT_VERSION := "1.14"
+CURRENT_VERSION := "1.14.1"
 CHECK_FOR_UPDATES_STARTUP := "yes"
 CHDMAN_FILE_LOC := a_scriptDir "\chdman.exe"
 DIR_TEMP := a_Temp "\namDHC"
